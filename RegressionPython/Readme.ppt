@@ -1,0 +1,20 @@
+uvicorn main:app --reload
+
+http://localhost:8000/docs
+
+{
+  "data": {
+    "CORI": 5,
+    "Generation": 8,
+    "firstHardType": "SSD",
+    "firstHardSize": "256 GB", 
+    "SizeRam": 6,
+    "BatteryLife": "HOUERS 4",
+    "ScreenSize": "INCH 15.6",
+    "ScreenType": "FHD",
+    "GraphicCardType": "RTX3080",
+    "laptopCase": "New"
+  }
+}
+    #y_pred = model.predict(X_test)
+    #mse = mean_squared_error(y_test, y_pred)
